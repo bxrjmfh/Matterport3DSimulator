@@ -1,8 +1,7 @@
 # Matterport3DSimulator
 # Requires nvidia gpu with driver 396.37 or higher
 
-
-FROM nvidia/cudagl:9.2-devel-ubuntu18.04
+FROM nvidia/cudagl:11.3.0-devel-ubuntu20.04
 
 # Install cudnn
 ENV CUDNN_VERSION 7.6.4.38

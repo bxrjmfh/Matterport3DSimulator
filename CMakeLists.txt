@@ -56,6 +56,7 @@ target_link_libraries(mattersim_main MatterSim)
 
 add_subdirectory(pybind11)
 
+set(PYTHON_EXECUTABLE "/home/lihao/miniconda3/envs/duet/bin/python" CACHE FILEPATH "Path to the desired Python executable")
 find_package(PythonInterp 3)
 message(${PYTHON_EXECUTABLE})
 
